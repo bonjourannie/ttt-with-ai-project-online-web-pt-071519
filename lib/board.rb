@@ -30,7 +30,7 @@ class Board
     cells[input.to_i-1] = player.token
   end
   
-   def turn_count
+  def turn_count
     cells.count{|token| token == "X" || token == "O"}
   end
   
