@@ -23,7 +23,7 @@ class Board
   end
   
   def full?
-    
+    cells.all?{|token| token == "X" || token == "O"}
   end
   
 end
