@@ -38,4 +38,8 @@ class Board
     !(position(input) == " " || position(input) == "")
   end
   
+  def valid_move?(input)
+    input.to_i.between?(1,9) && !taken?(input)
+  end
+  
 end
