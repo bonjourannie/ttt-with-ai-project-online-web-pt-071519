@@ -10,4 +10,8 @@ class Board
     @cells = Array.new(9, " ")
   end
   
+  def display 
+    
+  end
+  
 end
