@@ -34,4 +34,8 @@ class Board
     cells.count{|token| token == "X" || token == "O"}
   end
   
+  def taken?(input)
+    !(position(input) == " " || position(input) == "")
+  end
+  
 end
