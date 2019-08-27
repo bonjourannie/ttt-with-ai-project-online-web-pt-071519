@@ -22,4 +22,8 @@ class Board
     cells[input.to_i-1]
   end
   
+  def full?
+    
+  end
+  
 end
